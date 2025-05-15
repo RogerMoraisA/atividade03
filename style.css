@@ -1,0 +1,47 @@
+/* Cores */
+body {
+    background-color: #f0f8ff;
+}
+
+.header-container h1 {
+    color: #000033;
+}
+
+h2, h3 {
+    color: #4682b4;
+}
+
+.divider {
+    background-color: #4682b4;
+}
+
+.menu-links a {
+    color: #4682b4;
+}
+
+.profile-img {
+    width: 120px;   
+    border-color: #4682b4;
+}
+
+.education-table {
+    border-color: #4682b4;
+}
+
+.education-table th {
+    background-color: #e6f2ff;
+    color: #000033;
+}
+
+.contact-form button {
+    background-color: #4682b4;
+    color: #ffffff;
+}
+
+.contact-form button:hover {
+    background-color: #3a6d99;
+}
+
+footer small {
+    color: #666666;
+}

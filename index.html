@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Currículo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <h1>Roger Morais Alves</h1>
+            <h3>Estudante de Engenharia da Computação</h3>
+            <hr class="divider">
+            <div class="menu-links">
+                <a href="#dados">Dados Pessoais</a> | 
+                <a href="#formacao">Formação</a> | 
+                <a href="#habilidades">Habilidades</a> | 
+                <a href="#contato">Contato</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="dados">
+            <div class="section-container">
+                <h2>Dados Pessoais</h2>
+                <img src="rogerm.jpg" alt="Foto de Perfil" class="profile-img">
+                <table class="personal-data">
+                    <tr>
+                        <td><strong>Nome:</strong></td>
+                        <td>Roger Morais Alves</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Idade:</strong></td>
+                        <td>24 anos</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Endereço:</strong></td>
+                        <td>Rua Lindolfo de Souza Alquerque, 525 - Sobral/CE</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Telefone:</strong></td>
+                        <td>(88) 99862-5490</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Email:</strong></td>
+                        <td><i>rogerm10@alu.ufc.br</i></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <section id="formacao">
+            <div class="section-container">
+                <h2>Formação Acadêmica</h2>
+                <table class="education-table">
+                    <tr>
+                        <th>Curso</th>
+                        <th>Instituição</th>
+                        <th>Situação</th>
+                    </tr>
+                    <tr>
+                        <td>Engenharia da Computação</td>
+                        <td>Universidade Federal do Ceará</td>
+                        <td class="status">Cursando</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <section id="habilidades">
+            <div class="section-container">
+                <h2>Habilidades Técnicas</h2>
+                <div class="skills-container">
+                    <ul class="skills-list">
+                        <li>HTML5</li>
+                        <li>Linguagem C</li>
+                    </ul>
+                    <ul class="skills-list">
+                        <li>Java</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <section id="contato">
+            <div class="section-container">
+                <h2>Contato</h2>
+                <form class="contact-form">
+                    <table>
+                        <tr>
+                            <td><label for="nome">Nome:</label></td>
+                            <td><input type="text" id="nome" name="nome"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Email:</label></td>
+                            <td><input type="email" id="email" name="email"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="mensagem">Mensagem:</label></td>
+                            <td><textarea id="mensagem" name="mensagem" rows="5"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><button type="submit">Enviar Mensagem</button></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <hr class="divider">
+            <p><small>Última atualização: <b>Maio de 2025</b></small></p>
+            <p>&copy; 2025 Roger Morais Alves</p>
+        </div>
+    </footer>
+
+</body>
+</html>
